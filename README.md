@@ -96,6 +96,10 @@ salt '*' grains.item os      # Show the value of the OS grain for every minion
 salt '*' grains.item roles   # Show the value of the roles grain for every minion
 ```
 
+Look at a list of all grains 
+```
+salt '*' grains.items        # Grains data can be listed by using the 'grains.items' module
+```
 Manipulate grains.
 ```
 salt 'minion1' grains.setval mygrain True  # Set mygrain to True (create if it doesn't exist yet)
@@ -109,7 +113,7 @@ salt 'minion1' pillar.get pillar        # Get pillar
 salt 'minion1' pillar.item pillar       # Print pillar items
 salt 'minion1' pillar.ls                # Show available main keys
 
-salt '*' pillar.items                   # Show all pillars for *
+salt '*' pillar.items                   # Show a list of pillars for *
 salt '*' pillar.get pkg:apache          # Show pkg:apache pillar
 salt '*' pillar.file_exists foo/bar.sls # Return true if pillar file exist
 salt '*' saltutil.refresh_pillar        # Reload pillars
