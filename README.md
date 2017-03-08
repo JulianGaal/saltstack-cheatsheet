@@ -109,6 +109,7 @@ salt 'minion1' pillar.get pillar        # Get pillar
 salt 'minion1' pillar.item pillar       # Print pillar items
 salt 'minion1' pillar.ls                # Show available main keys
 
+salt '*' pillar.items                   # Show all pillars for *
 salt '*' pillar.get pkg:apache          # Show pkg:apache pillar
 salt '*' pillar.file_exists foo/bar.sls # Return true if pillar file exist
 salt '*' saltutil.refresh_pillar        # Reload pillars
