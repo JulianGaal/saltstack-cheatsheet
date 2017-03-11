@@ -1,8 +1,7 @@
 # SaltStack Cheat Sheet
 
-This list is partly inspired by the fine lists on:
-* http://www.xenuser.org/saltstack-cheat-sheet/
-* https://github.com/saltstack/salt/wiki/Cheat-Sheet
+# Index
+* 
 
 # Dive into documentation
 
@@ -297,3 +296,8 @@ After repository configuration, you need to update the metadata placed on `/var/
 spm update_repo
 ```
 SPM logs are placed on `/var/log/salt/spm` directory and the database who store the packages installed on the system is on `/var/cache/salt/spm/packages.db`.
+
+This list is partly inspired by the fine lists on:
+* http://www.xenuser.org/saltstack-cheat-sheet/
+* https://github.com/saltstack/salt/wiki/Cheat-Sheet
+
