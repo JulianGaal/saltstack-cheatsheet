@@ -1,6 +1,6 @@
 # SaltStack Cheat Sheet
 
-I recommend following the official tutorial for beginners on the Saltstack website before coming here. You will learn about Jinja and Yaml, and it's role in SaltStack. Take a look at this [example configuration]()
+I recommend following the official tutorial for beginners on the Saltstack website before coming here. You will learn about Jinja and Yaml, and it's role in SaltStack. Take a look at this [example configuration](https://github.com/juliangaal/saltstack-cheatsheet/blob/master/example-configuration/ExampleConfig.md)
 
 # Index
 1. [Minions](#1)
